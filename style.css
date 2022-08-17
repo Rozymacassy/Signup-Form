@@ -1,0 +1,105 @@
+
+body{
+    margin: 0;
+    padding: o;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.parent-container{
+    display: flex;
+    width: 100%;
+}
+
+.bg{
+  position: relative;
+}
+
+.img-owner{
+position: absolute;
+bottom: 10px;
+color:#ddd;
+}
+
+.logo{
+  width: 70px;
+  margin: 3em;
+  margin-left: 0.1em;
+  padding-left: 11em;
+  padding-right:10em;
+  background-color:rgba(0, 0, 0, 0.644) ;
+  position: absolute;
+}
+
+.od{
+  position: absolute ;
+  left: 8em;
+  top: 1.5em;
+  color:#ddd;
+  font-family:cursive ;
+}
+
+.aside{
+  margin-left: 20px;
+}
+.text{
+    margin-top: 5em;
+    font-weight: bold;
+}
+
+.form{
+  display: flex; 
+  padding: auto;
+  width: 50%;
+
+}
+.inputbox{
+margin: auto ;
+padding: 10px ;
+border: none;
+border-color: #E5E7EB;
+
+}
+
+
+.fes-form{
+ border-bottom: 2px solid #ddd;
+ box-shadow: rgba(221, 221, 221, 0.432);
+ color: #444;
+ font-weight: 500;
+ margin-bottom: 2rem;
+ background-color: rgba(221, 221, 221, 0.432);
+ border-radius: 5px;
+
+
+}       
+
+.sec-form{
+   border-bottom: 2px solid #ddd;
+   box-shadow: rgba(221, 221, 221, 0.432);
+   color: #444;
+   font-weight: 500;
+   margin-bottom: 2rem;
+   background-color: rgba(221, 221, 221, 0.432);
+   border-radius: 5px;
+
+  }       
+
+  .btn{
+    background-color: rgb(85, 136, 85);
+    border-radius: 5px;
+    padding: 10px 35px 10px 35px;
+    border: none;
+  }
+  .btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+  }
+  a{
+    text-decoration: none;
+    color: rgb(85, 136, 85);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
